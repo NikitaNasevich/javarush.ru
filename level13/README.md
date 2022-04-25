@@ -44,3 +44,16 @@ Requirements:
 3. В классе StringObject реализовать метод getInstance интерфейса SimpleObject.
 4. Класс StringObject должен существовать в классе Solution.
 5. Класс StringObject должен быть статическим.
+
+
+# task23
+
+Интерфейс Updatable в классе Screen
+Реализуй интерфейс Updatable в классе Screen.
+
+
+Requirements:
+1. Интерфейс Updatable должен наследовать (extends) интерфейс Selectable.
+2. Класс Screen должен реализовывать (implements) интерфейс Updatable.
+3. В классе Screen должен быть реализован метод onSelect интерфейса Selectable.
+4. В классе Screen должен быть реализован метод refresh интерфейса Updatable.
