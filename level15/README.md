@@ -183,3 +183,16 @@ Requirements:
 2. Класс JavaDev должен реализовывать интерфейс SpecificSerializable.
 3. В коде не должно быть явного наследования от Object (extends Object).
 4. Класс JuniorJavaDev не должен явно наследовать интерфейс SpecificSerializable.
+
+# task12
+
+Максимально простой код-2
+Упрости код — удали все конструкторы и вызовы конструкторов суперклассов, которые автоматически добавятся при компиляции.
+
+Взаимосвязь между объектами классов NakedCat и NormalCat, SiamCat — Is-a: http://en.wikipedia.org/wiki/Is-a
+
+Requirements:
+1. Класс NormalCat должен быть потомком класса NakedCat.
+2. Класс SiamCat должен быть потомком класса NormalCat.
+3. Упрости код класса NakedCat.
+4. Упрости код класса NormalCat.
