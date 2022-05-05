@@ -101,7 +101,7 @@ Requirements:
 3. Метод main не должен вызывать System.out.println() или System.out.print().
 4. Вывод программы должен соответствовать примеру из задания.
 
-# task07
+# [task07](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task07)
 
 Horse Racing
 Разберись, что делает программа.
