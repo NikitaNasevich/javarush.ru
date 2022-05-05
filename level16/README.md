@@ -27,3 +27,16 @@ Requirements:
 4. Создать статик блок внутри TestThread, который выводит в консоль "it's a static block inside TestThread".
 5. Метод run класса TestThread должен выводить "it's a run method".
 6. Метод main не изменять.
+
+# task03
+
+Список и нити
+В методе main добавить в статический объект list 5 нитей. Каждая нить должна быть новым объектом класса Thread, работающим со своим объектом класса SpecialThread.
+
+
+Requirements:
+1. В методе main создай 5 объектов типа SpecialThread.
+2. В методе main создай 5 объектов типа Thread.
+3. Добавь 5 разных нитей в список list.
+4. Каждая нить из списка list должна работать со своим объектом класса SpecialThread.
+5. Класс SpecialThread изменять нельзя.
