@@ -1,5 +1,5 @@
 # javarush.ru
-completed tasks from the site javarush.ru
+completed tasks from site javarush.ru
 
 # Java Syntax  (level1 - level10)
 
