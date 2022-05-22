@@ -304,3 +304,17 @@ Requirements:
 4. Метод main должен вызывать метод interrupt у объекта clock.
 5. Если numSeconds равно 3, то программа должна вывести "3 2 1 Марш!".
 6. Если numSeconds равно 4, то программа должна вывести "4 3 2 1 Прервано!".
+
+# [task18](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task18)
+
+Снова interrupt
+Создай нить TestThread.
+В методе main создай экземпляр нити, запусти, а потом прерви ее используя метод interrupt().
+
+
+Requirements:
+1. Класс TestThread должен быть унаследован от Thread.
+2. Класс TestThread должен иметь public void метод run.
+3. Метод main должен создавать объект типа TestThread.
+4. Метод main должен вызывать метод start у объекта типа TestThread.
+5. Метод main должен вызывать метод interrupt у объекта типа TestThread.
