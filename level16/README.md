@@ -474,6 +474,20 @@ Requirements:
 6. Вывод программы должен состоять из 2х строк, информирующих о завершении нитей. Например: "T1 was interrupted" и "T2 finished".
 7. Нити t1 и t2 должны завершаться (не обязательно успешно).
 
+# [task26](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task26)
+
+Создание по образцу
+Разберись, как работает программа.
+По образу и подобию CountdownRunnable создай нить CountUpRunnable, которая выводит значения в нормальном порядке - от 1 до number.
+
+
+Requirements:
+1. Класс CountUpRunnable должен реализовывать интерфейс Runnable.
+2. Класс CountUpRunnable должен иметь публичный метод run без параметров.
+3. Метод run класса CountUpRunnable должен работать примерно 2,5 секунды.
+4. Метод run класса CountUpRunnable должен каждые полсекунды выводить имя потока, двоеточие и значение счетчика от 1 до 5 (например: "Увеличиваем: 1").
+5. Метод run класса CountUpRunnable должен вызывать Thread.sleep(500).
+
 # [task31](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task31)
 
 Factory method pattern
@@ -495,20 +509,6 @@ Requirements:
 5. Добавь в класс ImageReaderFactory открытый статический метод getImageReader с параметром ImageTypes.
 6. Метод getImageReader должен создавать и возвращать подходящий Reader.
 7. Метод getImageReader должен кидать исключение IllegalArgumentException, если передан неправильный параметр.
-
-# [task26](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task26)
-
-Создание по образцу
-Разберись, как работает программа.
-По образу и подобию CountdownRunnable создай нить CountUpRunnable, которая выводит значения в нормальном порядке - от 1 до number.
-
-
-Requirements:
-1. Класс CountUpRunnable должен реализовывать интерфейс Runnable.
-2. Класс CountUpRunnable должен иметь публичный метод run без параметров.
-3. Метод run класса CountUpRunnable должен работать примерно 2,5 секунды.
-4. Метод run класса CountUpRunnable должен каждые полсекунды выводить имя потока, двоеточие и значение счетчика от 1 до 5 (например: "Увеличиваем: 1").
-5. Метод run класса CountUpRunnable должен вызывать Thread.sleep(500).
 
 # [task32](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task32)
 
