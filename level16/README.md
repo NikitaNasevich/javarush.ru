@@ -517,6 +517,25 @@ Requirements:
 4. Методы run всех игроков которые не стали победителями (были прерваны), должны вывести надписи getName() + ":проиграл". Например: Petrov:проиграл
 5. Метод run не должен кидать исключение при прерывании.
 
+# [task28](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task28
+  
+  Кто первый встал - того и тапки
+1. Разберись, что делает программа.
+1.1. Каждая нить должна читать с консоли строки. Используй готовый static BufferedReader reader.
+1.2. Используй AtomicInteger readStringCount, чтобы посчитать, сколько строк уже считано с консоли всеми нитями.
+2. Реализуй логику метода run:
+2.1. Пока нить не прервана (!isInterrupted) читай с консоли строки и добавляй их в поле List<String> result.
+2.2. Используй readStringCount для подсчета уже считанных с консоли строк.
+2.3. Тело метода run нужно поместить в блок try-catch.
+
+
+Requirements:
+1. Метод run должен работать пока нить не прервана (!isInterrupted).
+2. Метод run НЕ должен создавать свои InputStreamReader-ы или BufferedReader-ы.
+3. Метод run должен считывать строки из reader и добавлять их в список result.
+4. Метод run должен после каждого считывания увеличивать счетчик прочитанных строк readStringCount на 1.
+5. Программа должна выводить данные, считанные каждым потоком.
+  
 # [task31](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task31)
 
 Factory method pattern
