@@ -517,7 +517,7 @@ Requirements:
 4. Методы run всех игроков которые не стали победителями (были прерваны), должны вывести надписи getName() + ":проиграл". Например: Petrov:проиграл
 5. Метод run не должен кидать исключение при прерывании.
 
-# [task28](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task28
+# [task28](https://github.com/NikitaNasevich/javarush.ru/tree/main/level16/task28)
   
   Кто первый встал - того и тапки
 1. Разберись, что делает программа.
