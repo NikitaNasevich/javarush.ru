@@ -456,3 +456,19 @@ Requirements:
 7. Метод joinData должен удалить в списке allLines все строки из списка forRemoveLines, если в allLines содержаться все строки из списка forRemoveLines.
 8. Метод joinData должен очистить список allLines и выбросить исключение CorruptedDataException, если в allLines не содержаться все строки из списка forRemoveLines.
 9. Метод joinData должен вызываться в main.
+
+  
+# [task22](https://github.com/NikitaNasevich/javarush.ru/tree/main/level17/task22)
+  
+Посчитаем
+1. Сделай так, чтобы результат успел посчитаться для всех элементов массива values НЕ используя Thread.sleep в методе main(String[] args)
+2. Исправь synchronized блок так, чтобы массив values заполнился значением 1
+
+
+Requirements:
+1. Класс Solution должен содержать класс Counter.
+2. Класс Counter должен быть нитью.
+3. Метод run() класса Counter должен содержать synchronized блок.
+4. Synchronized блок метода run() не должен блокировать мьютекс this.
+5. Метод main(String[] args) класса Solution не должен использовать Thread.sleep().
+6. Для каждой нити, в методе main(String[] args) класса Solution используй метод, который ожидает завершение нити.
