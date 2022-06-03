@@ -129,3 +129,16 @@ Requirements:
 2. Класс Note должен содержать метод removeNote(int index).
 3. Класс Note должен содержать публичное поле List<String> notes.
 4. Поле List<String> notes не должно находится в локальном кэше.
+
+# [task09](https://github.com/NikitaNasevich/javarush.ru/tree/main/level17/task09)
+  
+Предложения
+Не используя synchronized сделай так, чтобы количество сделанных и принятых предложений было одинаковым.
+
+
+Requirements:
+1. Класс Solution должен содержать нить MakeProposal.
+2. Класс Solution должен содержать нить AcceptProposal.
+3. Класс Solution должен содержать публичную статическую переменную int proposal.
+4. Программа не должна содержать synchronized методов или synchronized блоков.
+5. Переменная int proposal не должна находится в локальном кэше.
