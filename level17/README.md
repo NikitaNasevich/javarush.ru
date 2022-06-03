@@ -368,3 +368,22 @@ Requirements:
 Requirements:
 1. В программе должны быть удалены synchronized согласно условию.
 2. Вывод информации по каждому человеку не должен перемешиваться с выводом информации по другим людям.
+
+  
+# [task18](https://github.com/NikitaNasevich/javarush.ru/tree/main/level17/task18)
+  
+Глажка
+И снова быт...
+Поставьте один synchronized, чтобы diana и igor гладили по очереди, ведь утюг всего один!
+
+Подсказка:
+использовать блокировку на уровне класса.
+
+
+Requirements:
+1. Класс Solution должен содержать public static класс Clothes.
+2. Класс Solution должен содержать public static класс Iron.
+3. Класс Solution должен содержать public static класс Person.
+4. Класс Person должен быть нитью.
+5. В методе run() класса Person должен быть synchronized блок.
+6. Synchronized блок должен использовать блокировку на уровне класса.
