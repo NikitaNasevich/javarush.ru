@@ -49,3 +49,15 @@ Requirements:
 7. В synchronized блоке метода addNote() должен находиться вызов метода add у notes.
 8. В synchronized блоке метода removeNote() должен находиться вызов метода remove у notes.
 9. Все команды вывода на экран не должны находиться в блоке synchronized.
+
+# [task04](https://github.com/NikitaNasevich/javarush.ru/tree/main/level17/task04)
+
+Синхронизированные заметки 2
+Класс Note будет использоваться нитями. Поэтому сделай так, чтобы вcе методы были синхронизированы.
+
+
+Requirements:
+1. Метод addNote() должен добавлять записки в список notes.
+2. Метод removeNote() должен удалять записку из списка notes.
+3. Метод addNote() должен быть синхронизирован.
+4. Метод removeNote() должен быть синхронизирован.
