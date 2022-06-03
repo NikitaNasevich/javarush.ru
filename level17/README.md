@@ -387,3 +387,17 @@ Requirements:
 4. Класс Person должен быть нитью.
 5. В методе run() класса Person должен быть synchronized блок.
 6. Synchronized блок должен использовать блокировку на уровне класса.
+
+  
+# [task19](https://github.com/NikitaNasevich/javarush.ru/tree/main/level17/task19)
+  
+ApplicationContext
+ApplicationContext будет доступен множеству нитей.
+Сделать так, чтобы данные не терялись: подумай, какое ключевое слово необходимо поставить и где.
+
+
+Requirements:
+1. Класс ApplicationContext должен быть абстрактным.
+2. Класс ApplicationContext должен содержать private поле container типа Map<String, GenericsBean>.
+3. В getByName(String name), если необходимо, используй synchronized.
+4. В removeByName(String name), если необходимо, используй synchronized.
