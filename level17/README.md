@@ -338,3 +338,21 @@ Requirements:
 10. Нить Person должна использовать drugsController для покупки случайного лекарства (getRandomDrug) в количестве (getRandomCount).
 11. Нить Person должна ждать 100мс между покупками, используя метод waitAMoment().
 12. Методы класса DrugsController должны быть synchronized.
+
+  
+# [task16](https://github.com/NikitaNasevich/javarush.ru/tree/main/level17/task16)
+  
+Синхронизированные методы
+Установить модификатор synchronized только тем методам, которым необходимо.
+Объект класса Solution будет использоваться нитями.
+
+
+Requirements:
+1. В method0, если необходимо, используй synchronized.
+2. В method1, если необходимо, используй synchronized.
+3. В method2, если необходимо, используй synchronized.
+4. В method3, если необходимо, используй synchronized.
+5. В method4, если необходимо, используй synchronized.
+6. В method5, если необходимо, используй synchronized.
+7. В method6, если необходимо, используй synchronized.
+8. В method7, если необходимо, используй synchronized.
