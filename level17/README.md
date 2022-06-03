@@ -313,3 +313,28 @@ Requirements:
 2. Класс Beach должен реализовывать интерфейс Comparable<Beach>.
 3. Метод compareTo класса Beach должен учитывать качество пляжа (quality) и дистанцию (distance).
 4. Все методы класса Beach, кроме метода main, должны быть синхронизированы.
+
+  
+# [task15](https://github.com/NikitaNasevich/javarush.ru/tree/main/level17/task15)
+  
+Аптека
+Реализуй интерфейс Runnable в классах Apteka и Person.
+Все нити должны работать пока не isStopped.
+Логика для Apteka: drugsController должен сделать продажу (вызвать метод void sell(Drug drug, int count)) случайного лекарства (getRandomDrug) в количестве (getRandomCount) и подождать 300 мс.
+Логика для Person: drugsController должен сделать покупку (вызвать метод void buy(Drug drug, int count)) случайного лекарства (getRandomDrug) в количестве (getRandomCount) и подождать 100 мс.
+Расставь synchronized там, где это необходимо.
+
+
+Requirements:
+1. Класс Solution должен содержать public static поле drugsController типа DrugsController.
+2. Класс Solution должен содержать public static поле isStopped типа boolean.
+3. Класс Solution должен содержать private static void метод waitAMoment(), который должен ждать 100 мс.
+4. Класс Apteka должен реализовывать интерфейс Runnable.
+5. Нить Apteka должна работать пока isStopped = false.
+6. Нить Apteka должна использовать drugsController для продажи случайного лекарства (getRandomDrug) в количестве (getRandomCount).
+7. Нить Apteka должна ждать 300мс между продажами, используя метод waitAMoment().
+8. Класс Person должен реализовывать интерфейс Runnable.
+9. Нить Person должна работать пока isStopped = false.
+10. Нить Person должна использовать drugsController для покупки случайного лекарства (getRandomDrug) в количестве (getRandomCount).
+11. Нить Person должна ждать 100мс между покупками, используя метод waitAMoment().
+12. Методы класса DrugsController должны быть synchronized.
