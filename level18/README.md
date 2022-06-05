@@ -82,7 +82,7 @@ Requirements:
 4. Данные в консоль должны выводится в одну строку.
 5. Поток чтения из файла должен быть закрыт.
 
-# [task06](https://github.com/NikitaNasevich/javarush.ru/upload/main/level18/task06)
+# [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level18/task06)
 
 Исправить ошибки
 Исправить функциональность в соответствии с требованиями.
