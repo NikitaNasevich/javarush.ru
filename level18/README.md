@@ -59,7 +59,7 @@ Requirements:
 4. Данные в консоль должны выводится в одну строку.
 5. Поток чтения из файла должен быть закрыт.
 
-# [task05](https://github.com/NikitaNasevich/javarush.ru/blob/main/level18/task05/Solution.java)
+# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level18/task05)
 
 Сортировка байт
 Ввести с консоли имя файла.
