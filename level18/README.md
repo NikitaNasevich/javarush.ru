@@ -1,4 +1,4 @@
-# [task01]
+# [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level18/task01)
 
 Максимальный байт
 Ввести с консоли имя файла.
