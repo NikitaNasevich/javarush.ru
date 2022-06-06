@@ -237,3 +237,18 @@ Requirements:
 2. Если в конструктор передан txt-файл, TxtInputStream должен вести себя, как обычный FileInputStream.
 3. Если в конструктор передан не txt-файл, должно быть выброшено исключение UnsupportedFileNameException.
 4. В случае выброшенного исключения, так же должен быть вызван super.close().
+
+# [task15](https://github.com/NikitaNasevich/javarush.ru/tree/main/level18/task15)
+
+Таблица
+Измени класс TableInterfaceWrapper так, чтобы он стал Wrapper-ом для TableInterface.
+Метод setModel должен вывести в консоль количество элементов в списке перед обновлением модели (вызовом метода setModel у объекта типа TableInterface).
+Метод getHeaderText должен возвращать текст в верхнем регистре - используй метод toUpperCase().
+
+
+Requirements:
+1. Класс TableInterfaceWrapper должен реализовывать интерфейс TableInterface.
+2. Класс TableInterfaceWrapper должен инициализировать в конструкторе поле типа TableInterface.
+3. Метод setModel() должен вывести в консоль количество элементов в новом листе перед обновлением модели.
+4. Метод getHeaderText() должен возвращать текст в верхнем регистре.
+5. Метод setHeaderText() должен устанавливать текст для заголовка без изменений.
