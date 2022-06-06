@@ -167,3 +167,20 @@ Requirements:
 3. Программа должна работать, пока введенный файл не окажется меньше 1000 байт.
 4. Программа должна завершиться исключением DownloadException.
 5. Поток FileInputStream должен быть закрыт.
+
+# [task11](https://github.com/NikitaNasevich/javarush.ru/tree/main/level18/task11)
+
+Wrapper (Decorator)
+Разберись, что делает программа.
+Аналогично классу DecoratorRunnableImpl создай класс DecoratorMyRunnableImpl.
+Вывод в консоль должен быть таким:
+DecoratorRunnableImpl body
+DecoratorMyRunnableImpl body
+RunnableImpl body
+
+
+Requirements:
+1. Создай класс DecoratorMyRunnableImpl, аналогичный DecoratorRunnableImpl.
+2. После запуска, каждый класс должен вывести в консоль "<свое имя класса> body", например "DecoratorRunnableImpl body".
+3. Классы RunnableImpl и DecoratorRunnableImpl изменять нельзя.
+4. Метод main изменять нельзя.
