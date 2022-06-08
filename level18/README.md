@@ -368,8 +368,6 @@ Requirements:
 
 , 19
 
-- 7
-
 f 361
 
 
