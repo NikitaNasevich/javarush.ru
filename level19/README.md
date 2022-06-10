@@ -16,7 +16,7 @@ Requirements:
 6. Класс TableAdapter должен содержать конструктор с параметром ATable.
 7. Класс TableAdapter должен переопределять метод getHeaderText согласно заданию.
 
-# [task02]()
+# [task02](https://github.com/NikitaNasevich/javarush.ru/tree/main/level19/task02)
 
 TableAdapter
 Измени класс TableAdapter так, чтобы он адаптировал ATable к BTable.
