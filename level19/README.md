@@ -80,3 +80,29 @@ Requirements:
 4. Класс PersonScannerAdapter должен содержать конструктор с параметром Scanner.
 5. Метод close() класса PersonScannerAdapter должен делегировать полномочие такому же методу fileScanner.
 6. Метод read() класса PersonScannerAdapter должен читать строку с файла, парсить её, и возвращать данные только одного человека, в виде объекта класса Person.
+
+# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level19/task05)
+
+Закрепляем адаптер
+Адаптировать Customer и Contact к RowItem.
+Классом-адаптером является DataAdapter.
+
+Инициализируй countries перед началом выполнения программы. Соответствие кода страны и названия:
+
+UA Ukraine
+
+RU Russia
+
+CA Canada
+
+
+Requirements:
+1. Класс Solution должен содержать public static поле countries типа Map<String, String>.
+2. В статическом блоке класса Solution инициализируй поле countries тестовыми данными согласно заданию.
+3. Класс Solution должен содержать интерфейс RowItem.
+4. Класс Solution должен содержать интерфейс Contact.
+5. Класс Solution должен содержать интерфейс Customer.
+6. Класс DataAdapter должен реализовывать интерфейс RowItem.
+7. Класс DataAdapter должен содержать два приватных поля: customer типа Customer и contact Contact.
+8. Класс DataAdapter должен содержать конструктор с параметрами (Customer customer, Contact contact), который инициализирует поля contact и customer.
+9. В классе DataAdapter реализуй методы интерфейса RowItem используя подсказки в виде комментариев в интерфейсах.
