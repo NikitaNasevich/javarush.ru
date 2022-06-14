@@ -3,8 +3,8 @@
 
 Пример:
 
-Info about Leela <span xml:lang="en" lang="en"><b><span>Turanga Leela
-</span></b></span><span>Super</span><span>girl</span>
+"Info about Leela <span xml:lang="en" lang="en"><b><span>Turanga Leela
+</span></b></span><span>Super</span><span>girl</span>"
 
 Первым параметром в метод main приходит тег. Например, "span".
 Вывести на консоль все теги, которые соответствуют заданному тегу.
