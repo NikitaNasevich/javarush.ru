@@ -98,3 +98,15 @@ Requirements:
 2. Класс JavaRush должен быть статическим.
 3. Класс JavaRush должен быть публичным.
 4. Должна быть возможна сериализация класса JavaRush.
+
+# [task09](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task09)
+
+Как сериализовать static?
+Сделай так, чтобы сериализация класса ClassWithStatic была возможной.
+
+
+Requirements:
+1. Класс ClassWithStatic должен существовать внутри класса Solution.
+2. Класс ClassWithStatic должен быть статическим.
+3. Класс ClassWithStatic должен быть публичным.
+4. Класс ClassWithStatic должен поддерживать интерфейс Serializable.
