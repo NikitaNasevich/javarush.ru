@@ -44,3 +44,17 @@ Requirements:
 1. Метод save() должен сохранять карту runtimeStorage в параметр outputStream.
 2. Метод load() должен восстанавливать состояние карты runtimeStorage из параметра inputStream.
 
+# [task04](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task04)
+
+Читаем и пишем в файл статики
+Реализуй логику записи в файл и чтения из файла для класса ClassWithStatic.
+Метод load должен инициализировать объект включая статические поля данными из файла.
+Метод main не участвует в тестировании.
+
+
+Requirements:
+1. Должна быть реализована возможность сохранения/загрузки объектов типа Solution.ClassWithStatic с помощью методов save/load.
+2. Класс Solution не должен поддерживать интерфейс Serializable.
+3. Класс Solution.ClassWithStatic не должен поддерживать интерфейс Serializable.
+4. Класс Solution.ClassWithStatic должен быть публичным.
+5. Класс Solution.ClassWithStatic не должен поддерживать интерфейс Externalizable.
