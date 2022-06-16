@@ -74,3 +74,15 @@ Requirements:
 5. Класс Solution.Human не должен поддерживать интерфейс Externalizable.
 6. Метод equals должен возвращать true для двух равных объектов типа Human и false для разных.
 7. Метод hashCode должен всегда возвращать одно и то же значение для одного и того же объекта типа Human.
+
+# [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task06)
+
+Как сериализовать?
+Сделай так, чтобы сериализация класса Human была возможной.
+
+
+Requirements:
+1. Класс Human должен существовать внутри класса Solution.
+2. Класс Human должен быть статическим.
+3. Класс Human должен быть публичным.
+4. Класс Human должен поддерживать интерфейс Serializable.
