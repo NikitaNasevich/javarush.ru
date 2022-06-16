@@ -58,3 +58,19 @@ Requirements:
 3. Класс Solution.ClassWithStatic не должен поддерживать интерфейс Serializable.
 4. Класс Solution.ClassWithStatic должен быть публичным.
 5. Класс Solution.ClassWithStatic не должен поддерживать интерфейс Externalizable.
+
+# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task05)
+
+Очень странные дела
+При чтении/записи объектов типа Human возникают странные ошибки.
+Разберись в чем дело и исправь их.
+
+
+Requirements:
+1. Логика чтения/записи реализованная в методах save/load должна работать корректно в случае, если список assets равен null.
+2. Логика чтения/записи реализованная в методах save/load должна работать корректно в случае, если поле name и список assets не равны null.
+3. Класс Solution.Human не должен поддерживать интерфейс Serializable.
+4. Класс Solution.Human должен быть публичным.
+5. Класс Solution.Human не должен поддерживать интерфейс Externalizable.
+6. Метод equals должен возвращать true для двух равных объектов типа Human и false для разных.
+7. Метод hashCode должен всегда возвращать одно и то же значение для одного и того же объекта типа Human.
