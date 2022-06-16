@@ -126,3 +126,18 @@ Requirements:
 2. Класс ClassWithStatic должен быть статическим.
 3. Класс ClassWithStatic должен быть публичным.
 4. Класс ClassWithStatic должен поддерживать интерфейс Serializable.
+
+# [task10](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task10)
+
+Как сериализовать что-то свое?
+Сделайте так, чтобы сериализация класса Object была возможной.
+Подсказка: для сериализации объекта нужно, чтобы все его поля поддерживали сериализацию.
+Для многих класов из JRE это уже сделано. Но если класс написан тобой, то нужно это свойство добавить вручную.
+
+
+Requirements:
+1. Класс Object должен существовать внутри класса Solution.
+2. Класс Solution.Object должен быть статическим.
+3. Класс Solution.Object должен быть публичным.
+4. Класс Solution.Object должен поддерживать интерфейс Serializable.
+5. Класс Solution.String должен поддерживать интерфейс Serializable.
