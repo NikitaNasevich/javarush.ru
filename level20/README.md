@@ -29,3 +29,18 @@ Requirements:
 3. Класс Solution.JavaRush не должен поддерживать интерфейс Serializable.
 4. Класс Solution.JavaRush должен быть публичным.
 5. Класс Solution.JavaRush не должен поддерживать интерфейс Externalizable.
+
+# [task03](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task03)
+
+Знакомство с properties
+В методе main() происходит считывание пути к файлу с консоли и заполнение runtimeStorage данными из файла.
+Тебе необходимо в методе save() реализовать логику записи в файл для карты runtimeStorage, а в методе load() - логику чтения из файла для runtimeStorage.
+Файл должен быть в формате .properties. Комментарии в файле игнорируй.
+Про .properties прочитай в вики.
+Подсказка: используй объект класса Properties.
+
+
+Requirements:
+1. Метод save() должен сохранять карту runtimeStorage в параметр outputStream.
+2. Метод load() должен восстанавливать состояние карты runtimeStorage из параметра inputStream.
+
