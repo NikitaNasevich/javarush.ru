@@ -14,3 +14,18 @@ Requirements:
 3. Класс Solution.Human не должен поддерживать интерфейс Serializable.
 4. Класс Solution.Human должен быть публичным.
 5. Класс Solution.Human не должен поддерживать интерфейс Externalizable.
+
+# [task02](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task02)
+
+Читаем и пишем в файл: JavaRush
+Реализуй логику записи в файл и чтения из файла для класса JavaRush.
+Пустых полей у объекта User быть не может. Дату в файле удобно хранить в формате long.
+Метод main реализован только для тебя и не участвует в тестировании.
+
+
+Requirements:
+1. Логика чтения/записи реализованная в методах save/load должна работать корректно в случае, если список users пустой.
+2. Логика чтения/записи реализованная в методах save/load должна работать корректно в случае, если список users не пустой.
+3. Класс Solution.JavaRush не должен поддерживать интерфейс Serializable.
+4. Класс Solution.JavaRush должен быть публичным.
+5. Класс Solution.JavaRush не должен поддерживать интерфейс Externalizable.
