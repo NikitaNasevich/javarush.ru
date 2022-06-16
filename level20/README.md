@@ -86,3 +86,15 @@ Requirements:
 2. Класс Human должен быть статическим.
 3. Класс Human должен быть публичным.
 4. Класс Human должен поддерживать интерфейс Serializable.
+
+# [task07](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task07)
+
+Как сериализовать JavaRush?
+Сделай так, чтобы сериализация класса JavaRush была возможной.
+
+
+Requirements:
+1. Класс JavaRush должен существовать внутри класса Solution.
+2. Класс JavaRush должен быть статическим.
+3. Класс JavaRush должен быть публичным.
+4. Должна быть возможна сериализация класса JavaRush.
