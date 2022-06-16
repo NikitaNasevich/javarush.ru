@@ -156,3 +156,16 @@ Requirements:
 5. В методе writeExternal, на полученном в качестве параметра объекте типа ObjectOutput должен быть вызван метод writeInt с параметром year.
 6. Метод readExternal должен корректно восстанавливать из ObjectInput значение поля address.
 7. Метод readExternal должен корректно восстанавливать из ObjectInput значение поля year.
+
+# [task12](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task12)
+
+OutputToConsole
+Класс OutputToConsole должен сериализовываться с помощью интерфейса Externalizable.
+Найди и исправь ошибку.
+
+
+Requirements:
+1. Класс Solution.OutputToConsole должен поддерживать интерфейс Externalizable.
+2. Класс OutputToConsole должен быть создан в классе Solution.
+3. Класс OutputToConsole должен быть публичным.
+4. Класс OutputToConsole должен быть статическим.
