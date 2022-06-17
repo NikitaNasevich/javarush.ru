@@ -300,3 +300,17 @@ Requirements:
 Requirements:
 1. Класс Person должен поддерживать нужный интерфейс.
 2. Некоторые поля должны быть отмечены модификатором transient.
+
+# [task21](https://github.com/NikitaNasevich/javarush.ru/tree/main/level20/task21)
+
+Сериализация под запретом
+Запрети сериализацию класса SubSolution используя NotSerializableException.
+Сигнатуры классов менять нельзя.
+
+
+Requirements:
+1. Класс Solution должен поддерживать интерфейс Serializable.
+2. Класс SubSolution должен быть создан внутри класса Solution.
+3. Класс SubSolution должен быть потомком класса Solution.
+4. При попытке сериализовать объект типа SubSolution должно возникать исключение NotSerializableException.
+5. При попытке десериализовать объект типа SubSolution должно возникать исключение NotSerializableException.
