@@ -1,4 +1,4 @@
-# [task01]()
+# [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level21/task01)
 
 Определяем адрес сети
 1. Даны IP-адрес и маска подсети, необходимо вычислить адрес сети - реализуй метод getNetAddress.
