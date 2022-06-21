@@ -106,3 +106,16 @@ Requirements:
 2. Класс User должен поддерживать интерфейс Cloneable.
 3. В классе User должен быть корректно реализован метод clone.
 4. В классе Solution должен быть корректно реализован метод clone.
+
+# [task08](https://github.com/NikitaNasevich/javarush.ru/tree/main/level21/task08)
+
+Клонирование растений
+Класс Plant не должен реализовывать интерфейс Cloneable
+Реализуй механизм глубокого клонирования для Tree.
+
+
+Requirements:
+1. Класс Plant не должен поддерживать интерфейс Cloneable.
+2. Класс Tree должен поддерживать интерфейс Cloneable.
+3. Класс Tree должен быть потомком класса Plant.
+4. В классе Tree должен быть корректно реализован метод clone.
