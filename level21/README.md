@@ -136,3 +136,15 @@ Requirements:
 4. Метод clone в классе B должен быть переопределен таким образом, чтобы при попытке клонирования объекта класса B возникало исключение CloneNotSupportedException.
 5. Класс C должен быть потомком класса B.
 6. Клонирование объектов класса C должно завершаться успешно.
+
+# [task10](https://github.com/NikitaNasevich/javarush.ru/tree/main/level21/task10)
+
+Рефакторинг методов
+Отрефакторите метод writeZipEntriesToFile в соответствии с java7 try-with-resources.
+
+
+Requirements:
+1. Метод writeZipEntriesToFile должен быть объявлен с модификатором доступа public.
+2. Метод writeZipEntriesToFile должен быть статическим.
+3. Тип возвращаемого значения метода writeZipEntriesToFile должен быть void.
+4. Метод writeZipEntriesToFile должен корректно использовать try-with-resources.
