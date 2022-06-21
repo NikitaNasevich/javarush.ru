@@ -148,3 +148,16 @@ Requirements:
 2. Метод writeZipEntriesToFile должен быть статическим.
 3. Тип возвращаемого значения метода writeZipEntriesToFile должен быть void.
 4. Метод writeZipEntriesToFile должен корректно использовать try-with-resources.
+
+# [task11](https://github.com/NikitaNasevich/javarush.ru/tree/main/level21/task11)
+
+Освобождаем ресурсы
+Реализуй метод finalize, предварительно обдумав, что именно в нем должно быть.
+Проведи рефакторинг метода getUsers в соответствии с java7 try-with-resources.
+
+
+Requirements:
+1. Метод finalize в классе Solution должен содержать вызов super.finalize().
+2. Метод finalize в классе Solution должен корректно завершаться в случае, если значение поля connection равно null.
+3. Метод finalize в классе Solution должен закрывать текущее соединение, если значение поля connection не равно null.
+4. Метод getUsers должен корректно использовать try-with-resources.
