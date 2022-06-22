@@ -47,3 +47,17 @@ Requirements:
 2. Метод getPartOfString должен принимать строку в качестве параметра.
 3. В случае, если в метод getPartOfString были переданы некорректные данные, должно возникнуть исключение TooShortStringException.
 4. Метод getPartOfString должен возвращать подстроку начиная с символа после 1-го пробела и до конца слова, которое следует после 4-го пробела.
+
+# [task03](https://github.com/NikitaNasevich/javarush.ru/tree/main/level22/task03)
+
+Между табуляциями
+Метод getPartOfString должен возвращать подстроку между первой и второй табуляцией.
+На некорректные данные бросить исключение TooShortStringException.
+Класс TooShortStringException не менять.
+
+
+Requirements:
+1. Класс TooShortStringException должен быть потомком класса Exception.
+2. Метод getPartOfString должен принимать строку в качестве параметра.
+3. В случае, если строка, переданная в метод getPartOfString содержит менее 2 табуляций должно возникнуть исключение TooShortStringException.
+4. Метод getPartOfString должен возвращать подстроку между первой и второй табуляцией.
