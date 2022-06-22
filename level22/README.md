@@ -1,4 +1,4 @@
-# [task01]()
+# [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level22/task01)
 
 Строки нитей или строковые нити? Вот в чем вопрос
 1. Метод getPartOfString должен возвращать подстроку между первой и последней табуляцией.
