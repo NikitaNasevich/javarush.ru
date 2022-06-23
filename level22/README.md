@@ -142,3 +142,24 @@ Requirements:
 3. В классе Solution должен содержаться вложенный класс Pair с методами equals, hashCode и toString. Удалять или изменять эти методы нельзя.
 4. В классе Pair должен быть объявлен конструктор без параметров (или конструктор по умолчанию).
 5. Список result должен быть заполнен корректными парами согласно условию задачи.
+
+# [task08](https://github.com/NikitaNasevich/javarush.ru/tree/main/level22/task08)
+
+Формируем WHERE
+Сформируй часть запроса WHERE используя StringBuilder.
+Если значение null, то параметр не должен попадать в запрос.
+
+Пример:
+
+{name=Ivanov, country=Ukraine, city=Kiev, age=null}
+
+Результат:
+
+name = 'Ivanov' and country = 'Ukraine' and city = 'Kiev'
+
+
+Requirements:
+1. Метод getQuery должен принимать один параметр типа Map.
+2. Метод getQuery должен иметь тип возвращаемого значения String.
+3. Метод getQuery должен быть статическим.
+4. Метод getQuery должен возвращать строку сформированную по правилам описанным в условии задачи.
