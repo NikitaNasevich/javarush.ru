@@ -202,3 +202,23 @@ Requirements:
 5. Метод getLine не должен изменять переданные ему параметры (слова).
 6. Все слова переданные в метод getLine должны быть включены в результирующую строку.
 7. Вывод на экран должен соответствовать условию задачи.
+
+# [task10](https://github.com/NikitaNasevich/javarush.ru/tree/main/level22/task10)
+
+StringTokenizer
+Используя StringTokenizer разделить query на части по разделителю delimiter.
+
+Пример
+
+getTokens("level22.lesson13.task01", ".")
+
+возвращает массив строк
+
+{"level22", "lesson13", "task01"}
+
+
+Requirements:
+1. Метод getTokens должен использовать StringTokenizer.
+2. Метод getTokens должен быть публичным.
+3. Метод getTokens должен принимать два параметра типа String.
+4. Массив типа String возвращенный методом getTokens должен быть заполнен правильно(согласно условию задачи).
