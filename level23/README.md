@@ -63,3 +63,20 @@ Requirements:
 2. Метод getTwoSolutions должен быть статическим.
 3. Метод getTwoSolutions должен быть публичным.
 4. Метод getTwoSolutions должен возвращать массив типа Solution заполненный согласно заданию.
+
+# [tasl06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level23/task06)
+
+Inner 2
+В классе SuperUser метод getDescription должен учитывать страну и город, т.е. возвращать результат аналогичный следующему:
+
+My name is George. I'm from Seattle in the United States.
+
+Используй возможности иннер класса.
+
+
+Requirements:
+1. Класс SuperUser должен быть приватным.
+2. Класс SuperUser должен содержать метод getDescription.
+3. Метод getDescription в классе SuperUser должен быть публичным.
+4. Метод getDescription в классе SuperUser должен возвращать строку учитывающую имя, страну и город пользователя форматированную согласно условию задачи.
+5. Метод getTrickyUser должен возвращать объект типа SuperUser.
