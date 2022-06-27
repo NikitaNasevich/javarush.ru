@@ -64,7 +64,7 @@ Requirements:
 3. Метод getTwoSolutions должен быть публичным.
 4. Метод getTwoSolutions должен возвращать массив типа Solution заполненный согласно заданию.
 
-# [tasl06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level23/task06)
+# [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level23/task06)
 
 Inner 2
 В классе SuperUser метод getDescription должен учитывать страну и город, т.е. возвращать результат аналогичный следующему:
