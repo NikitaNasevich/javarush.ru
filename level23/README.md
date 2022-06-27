@@ -49,3 +49,17 @@ Requirements:
 4. Класс NameDataProvider должен реализовывать интерфейс DbDataProvider с параметром типа String.
 5. Метод refreshAllData в классе TaskDataProvider должен сохранять в список tasks результат работы метода getFakeTasks класса MockDB.
 6. Метод refreshAllData в классе NameDataProvider должен сохранять в список names результат работы метода getFakeNames класса MockDB.
+
+# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level23/task05)
+
+Inner
+Реализовать метод getTwoSolutions, который должен возвращать массив из 2-х экземпляров класса Solution.
+Для каждого экземпляра класса Solution инициализировать поле innerClasses двумя значениями.
+Инициализация всех данных должна происходить только в методе getTwoSolutions.
+
+
+Requirements:
+1. В классе Solution должен быть реализован метод getTwoSolutions.
+2. Метод getTwoSolutions должен быть статическим.
+3. Метод getTwoSolutions должен быть публичным.
+4. Метод getTwoSolutions должен возвращать массив типа Solution заполненный согласно заданию.
