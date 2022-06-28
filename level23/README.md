@@ -80,3 +80,16 @@ Requirements:
 3. Метод getDescription в классе SuperUser должен быть публичным.
 4. Метод getDescription в классе SuperUser должен возвращать строку учитывающую имя, страну и город пользователя форматированную согласно условию задачи.
 5. Метод getTrickyUser должен возвращать объект типа SuperUser.
+
+# [task07](https://github.com/NikitaNasevich/javarush.ru/tree/main/level23/task07)
+
+Как выбрать нужное?
+В методе main присвой объекту Object obj экземпляр класса TEST.
+Не изменяй ничего кроме метода main.
+
+
+Requirements:
+1. В классе Solution должно существовать поле TEST.
+2. В классе Solution должен существовать класс TEST.
+3. В классе Solution должно существовать поле obj.
+4. В методе main в поле obj должен быть сохранен объект типа TEST(экземпляр класса TEST).
