@@ -181,3 +181,7 @@ Requirements:
 3. В классе Solution должно присутствовать поле name.
 4. В классе Solution должно присутствовать поле food.
 5. В классе Solution должно присутствовать поле sound.
+
+# [task12](https://github.com/NikitaNasevich/javarush.ru/tree/main/level23/task12)
+
+Игра Змейка. Условия внутри.
