@@ -93,3 +93,19 @@ Requirements:
 2. В классе Solution должен существовать класс TEST.
 3. В классе Solution должно существовать поле obj.
 4. В методе main в поле obj должен быть сохранен объект типа TEST(экземпляр класса TEST).
+
+# [task08](https://github.com/NikitaNasevich/javarush.ru/tree/main/level23/task08)
+
+Рефакторинг, вложенные классы
+Отрефакторите класс Solution: вынесите все константы в public вложенный(nested) класс Constants.
+Запретите наследоваться от Constants.
+
+
+Requirements:
+1. В классе Solution должен быть создан класс Constants содержащий строковые константы.
+2. Класс Constants должен быть публичным.
+3. Класс Constants должен быть объявлен с модификатором, запрещающим наследование от этого класса.
+4. В классе Constants должна существовать константа SERVER_IS_CURRENTLY_NOT_ACCESSIBLE со значением "The server is not currently accessible.".
+5. В классе Constants должна существовать константа USER_IS_NOT_AUTHORIZED со значением "The user is not authorized.".
+6. В классе Constants должна существовать константа USER_IS_BANNED со значением "The user is banned.".
+7. В классе Constants должна существовать константа ACCESS_IS_DENIED со значением "Access is denied.".
