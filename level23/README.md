@@ -160,3 +160,24 @@ Requirements:
 2. В классе Solution должен присутствовать метод sout без параметров.
 3. В классе Solution должно присутствовать поле name.
 4. Модификатор доступа метода getName должен быть расширен.
+
+# [task11](https://github.com/NikitaNasevich/javarush.ru/tree/main/level23/task11)
+
+Повторяем threads
+Сделать так, чтобы в методе someActions вызывались только методы класса Solution.
+
+Ожидаемый вывод в методе main:
+
+Amigo: Mmmmm, beef
+
+Amigo: knock knock
+
+Amigo: Zzzzzzz...1 s
+
+
+Requirements:
+1. Вывод на экран должен соответствовать условию задачи.
+2. В методе someActions должен быть вызван метод sleep класса Solution.
+3. В классе Solution должно присутствовать поле name.
+4. В классе Solution должно присутствовать поле food.
+5. В классе Solution должно присутствовать поле sound.
