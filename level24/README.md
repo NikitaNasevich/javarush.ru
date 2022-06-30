@@ -84,3 +84,18 @@ Requirements:
 3. В методе someAction анонимного класса Action созданного в классе Solution должен содержаться вызов метода someAction родительского класса (super.someAction()).
 4. В методе someAction анонимного класса Action созданного в классе Solution должен быть создан объект типа FirstClass.
 5. В методе someAction анонимного класса Action созданного в классе Solution должен быть создан объект типа SecondClass.
+
+# [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level24/task06)
+
+Наследование от внутреннего класса
+Внутри класса Solution создай 2 внутренних public класса Apt3Bedroom, BigHall.
+Унаследуй их от Apartments и Hall.
+
+
+Requirements:
+1. Класс Apt3Bedroom должен быть создан внутри класса Solution.
+2. Класс BigHall должен быть создан внутри класса Solution.
+3. Класс Apt3Bedroom должен быть публичным.
+4. Класс BigHall должен быть публичным.
+5. Класс Apt3Bedroom должен быть потомком класса Building.Apartments.
+6. Класс BigHall должен быть потомком класса Building.Hall.
