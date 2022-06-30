@@ -67,3 +67,20 @@ Requirements:
 6. Объект возвращаемый методом castToHasWidth должен вычислять ширину, как разницу между x координатами.
 7. Класс Rectangle не должен реализовывать интерфейс HasHeight.
 8. Класс Rectangle не должен реализовывать интерфейс HasWidth.
+
+# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level24/task05)
+
+Black box
+1. Восстанови логику метода someAction для поля solutionAction.
+2. Пример вывода смотри в комментарии к методу main.
+3. Подсказка: метод someAction анонимного класса поля solutionAction должен вызвать метод сабкласса FirstClass, если param > 0, иначе вызвать метод сабкласса SecondClass.
+
+Не изменяй метод main!
+
+
+Requirements:
+1. Вывод на экран должен соответствовать условию задачи.
+2. Для вывода должны быть использованы строковые константы объявленные в классе SecondClass.
+3. В методе someAction анонимного класса Action созданного в классе Solution должен содержаться вызов метода someAction родительского класса (super.someAction()).
+4. В методе someAction анонимного класса Action созданного в классе Solution должен быть создан объект типа FirstClass.
+5. В методе someAction анонимного класса Action созданного в классе Solution должен быть создан объект типа SecondClass.
