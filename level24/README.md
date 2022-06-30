@@ -1,4 +1,4 @@
-# [task01]()
+# [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level24/task01)
 
 Создание своего интерфейса-маркера
 1. Создай интерфейс-маркер SelfInterfaceMarker.
