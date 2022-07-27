@@ -1,3 +1,16 @@
+# [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task01)
+
+Новые возможности!
+Используя возможности enum-а реализуй метод getLetterPosition, который должен возвращать позицию буквы.
+Позиция буквы A - 1.
+
+
+Requirements:
+1. Класс Solution должен содержать enum Alphabet.
+2. Alphabet должен содержать по порядку 26 букв английского алфавита.
+3. Метод getLetterPosition у класса Alphabet должен возвращать позицию буквы в алфавите.
+4. Метод getLetterPosition должен вызывать метод ordinal.
+
 # [task03](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task03)
 
 Свой enum
