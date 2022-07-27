@@ -67,6 +67,26 @@ Requirements:
 5. Если переданная нить завершила работу, нужно вывести в консоль ее приоритет.
 6. Метод processThreads должен использовать оператор switch.
 
+# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task06)
+
+Без дураков
+1. Создай private class MyUncaughtExceptionHandler, который на перехват исключения должен подождать половину секунды, а затем вывести на экран secretKey, имя трэда и сообщение возникшего исключения.
+Используй String.format(...).
+
+Пример:
+super secret key, Thread-0, it's an example
+
+2. Разберись в последовательности выполняемого кода и обеспечь логирование возникновения исключения в п.1.
+3. Метод main в тестировании не участвует.
+
+
+Requirements:
+1. Создай private class MyUncaughtExceptionHandler с конструктором по-умолчанию в классе MyThread.
+2. Во время перехвата исключения, MyUncaughtExceptionHandler должен вызвать Thread.sleep(500).
+3. Затем, MyUncaughtExceptionHandler должен выводить в консоль secretKey, имя трэда и сообщение возникшего исключения.
+4. Для вывода сообщения используй String.format(...).
+5. Нужно обеспечить логирование возникновения исключения.
+
 # [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task06)
 
 Мониторинг состояния нити
