@@ -67,7 +67,7 @@ Requirements:
 5. Если переданная нить завершила работу, нужно вывести в консоль ее приоритет.
 6. Метод processThreads должен использовать оператор switch.
 
-# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task06)
+# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task05)
 
 Без дураков
 1. Создай private class MyUncaughtExceptionHandler, который на перехват исключения должен подождать половину секунды, а затем вывести на экран secretKey, имя трэда и сообщение возникшего исключения.
