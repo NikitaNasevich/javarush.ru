@@ -48,7 +48,7 @@ Requirements:
 7. Метод Column.isShown должен возвращать true, если колонка видимая, иначе false.
 8. Метод Column.hide должен скрывать колонку и сдвигать индексы остальных отображаемых колонок.
 
-# [task06]()
+# [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task06)
 
 Мониторинг состояния нити
 Cоздай класс нити LoggingStateThread, которая будет выводить в консоль все состояния (State) переданной в конструктор нити.
