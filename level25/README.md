@@ -142,7 +142,7 @@ Requirements:
 3. Метод cancel для локального класса внутри метода newTask должен закрывать ресурсы SocketTask и вызвать cancel у родительского класса.
 4. Метод у родительского класса должен быть вызван, даже если во время закрытия ресурсов было выкинуто исключение.
 
-# [task10](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task10
+# [task10](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task10)
 
 Поживем - увидим
 Все исключения, которые возникают в процессе работы нити Solution, должны быть обработаны одним из вариантов:
