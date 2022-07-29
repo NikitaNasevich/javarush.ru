@@ -101,3 +101,16 @@ Requirements:
 3. Переопредели метод run в классе LoggingStateThread.
 4. После запуска класс LoggingStateThread должен выводить в консоль изменения состояния переданной нити.
 5. После завершения работы наблюдаемой нити, LoggingStateThread так же должен завершить работу.
+
+# [task08](https://github.com/NikitaNasevich/javarush.ru/tree/main/level25/task08)
+
+Не валять дурака
+Восстанови логику класса TaskManipulator.
+
+
+Requirements:
+1. Класс TaskManipulator должен реализовывать интерфейсы Runnable и CustomThreadManipulator.
+2. Метод run должен каждые 100 миллисекунд выводить имя исполняемой нити в консоль.
+3. Класс TaskManipulator должен иметь внутреннее поле типа Thread.
+4. Метод start должен создавать, сохранять во внутреннее поле и запускать нить с именем, которое передано через аргумент метода.
+5. Метод stop должен прерывать последнюю созданную классом TaskManipulator нить.
