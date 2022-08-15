@@ -1,4 +1,4 @@
-# [task01] ()
+# [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task01)
 
 Почитать в инете про медиану выборки
 Реализуй логику метода sort, который должен сортировать данные в массиве по удаленности от его медианы.
@@ -22,7 +22,7 @@ Requirements:
 3. Класс Solution должен содержать публичный статический метод Integer[] sort(Integer[] array).
 4. Метод sort(Integer[] array) класса Solution должен сортировать данные в массиве по удаленности от его медианы.
 
-# [task02] ()
+# [task02](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task02)
 
 Был бы ум - будет и успех
 Солдаты всегда строились, строятся и будут строиться по убыванию роста.
