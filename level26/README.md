@@ -144,3 +144,18 @@ Requirements:
 4. Все методы класса Solution не должны быть synchronized.
 5. В методе get() класса Solution в synchronized блоке используй lock из массива locks в зависимости от хэша объекта и количества лок объектов.
 6. В методе clear() класса Solution в synchronized блоке используй lock из массива locks в зависимости от индекса элемента и количества лок объектов.
+
+
+# [task10](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task10)
+
+Мир скучен для скучных людей
+Разберись с BlockingQueue.
+По образу и подобию класса Producer создай класс Consumer, который будет выводить данные из BlockingQueue в консоль.
+
+
+Requirements:
+1. Класс Consumer должен быть создан в отдельном файле.
+2. Класс Consumer должен реализовывать интерфейс Runnable.
+3. Класс Consumer должен содержать приватное поле BlockingQueue queue.
+4. Класс Consumer должен содержать конструктор с одним параметром, инициализирующий поле queue.
+5. Метод run() класса Consumer должен постоянно выводить на экран значения из очереди.
