@@ -54,3 +54,17 @@ Requirements:
 2. Класс CustomizedComparator должен содержать приватное поле comparators типа Comparator<T>[].
 3. Класс CustomizedComparator должен содержать конструктор с параметром vararg компараторов.
 4. Метод compare() класса CustomizedComparator должен сравнивать объекты в порядке, соответствующем последовательности компараторов comparators.
+
+# [task04](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task04)
+
+Для того, чтобы усовершенствовать ум, надо больше размышлять, чем заучивать
+Расставь volatile там, где необходимо.
+
+
+Requirements:
+1. Класс Solution должен содержать public static final поле String DEFAULT_JAVARUSH_THREAD_NAME.
+2. Класс Solution должен содержать private static final поле AtomicInteger createdThreadIndex.
+3. Класс Solution должен содержать private static final поле AtomicInteger aliveThreadIndex.
+4. Класс Solution должен содержать private static final поле Logger log.
+5. Класс Solution должен содержать private static поле boolean debugSession.
+6. Расставь volatile там, где необходимо.
