@@ -115,3 +115,18 @@ Requirements:
 3. Класс IntegerHolder должен содержать public метод get(), который должен вернуть value.
 4. Класс IntegerHolder должен содержать public метод set(int value), который должен установить value переданным значением.
 5. Класс IntegerHolder должен быть thread safe.
+
+# [task08](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task08)
+
+Мудрый человек думает раз, прежде чем два раза сказать
+Все методы, кроме метода main, класса Solution должны быть thread safe.
+Сделайте так, чтобы оба метода могли выполняться одновременно двумя различными тредами.
+synchronized(this) для этого не подходит, используй другой объект для лока.
+
+
+Requirements:
+1. Класс Solution должен содержать метод getSumOfVar1AndVar2().
+2. Класс Solution должен содержать метод getSumOfVar3AndVar4().
+3. Метод getSumOfVar1AndVar2() должен содержать synchronized блок.
+4. Метод getSumOfVar3AndVar4() должен содержать synchronized блок.
+5. Synchronized блоки методов getSumOfVar1AndVar2() и getSumOfVar3AndVar4() должны использовать мьютексы разных объектов.
