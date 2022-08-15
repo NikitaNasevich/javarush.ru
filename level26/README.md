@@ -82,3 +82,21 @@ Requirements:
 4. Класс RethrowableTask должен содержать private поле Throwable throwable.
 5. Класс RethrowableTask должен содержать private поле Runnable runnable.
 6. Расставь volatile там, где необходимо.
+
+# [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task06)
+
+Тот, кто любит труд, не нуждается в развлечениях
+Расставь volatile там, где необходимо.
+
+
+Requirements:
+1. Класс Solution должен содержать private final поле URL javarushUrl.
+2. Класс Solution должен содержать private final поле URL javarushUrl1Child.
+3. Класс Solution должен содержать private final поле URL javarushVkGroupUrl.
+4. Класс Solution должен содержать private final поле URL javarushVkGroupUrl1Child.
+5. Класс Solution должен содержать private final поле URL javarushVkGroupUrl2Child.
+6. Класс Solution должен содержать private final поле URL javarushVkGroupUrl3Child.
+7. Класс Solution должен содержать private поле ExecutorService executorService.
+8. Класс Solution должен содержать private поле Set<URL> urlsForProcessing.
+9. Класс UrlTask должен содержать private final поле URL url.
+10. Расставь volatile там, где необходимо.
