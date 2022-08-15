@@ -160,7 +160,7 @@ Requirements:
 4. Класс Consumer должен содержать конструктор с одним параметром, инициализирующий поле queue.
 5. Метод run() класса Consumer должен постоянно выводить на экран значения из очереди.
 
-# [task11](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task10)
+# [task11](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task11)
 
 Мир не меняется, меняемся мы
 Разберись с ConcurrentHashMap.
