@@ -130,3 +130,17 @@ Requirements:
 3. Метод getSumOfVar1AndVar2() должен содержать synchronized блок.
 4. Метод getSumOfVar3AndVar4() должен содержать synchronized блок.
 5. Synchronized блоки методов getSumOfVar1AndVar2() и getSumOfVar3AndVar4() должны использовать мьютексы разных объектов.
+
+# [task09](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task09)
+
+Распределение элементов по корзинам с собственным локом
+В синхронизированных блоках используй нужный лок.
+
+
+Requirements:
+1. Класс Solution должен содержать private static final поле int NUMBER_LOCKS.
+2. Класс Solution должен содержать private final поле Node[] buckets.
+3. Класс Solution должен содержать private final поле Object[] locks.
+4. Все методы класса Solution не должны быть synchronized.
+5. В методе get() класса Solution в synchronized блоке используй lock из массива locks в зависимости от хэша объекта и количества лок объектов.
+6. В методе clear() класса Solution в synchronized блоке используй lock из массива locks в зависимости от индекса элемента и количества лок объектов.
