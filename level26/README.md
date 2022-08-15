@@ -176,3 +176,24 @@ Requirements:
 4. Класс Producer должен содержать конструктор с одним параметром, инициализирующий поле map.
 5. Метод run() класса Producer должен каждые полсекунды добавлять в ConcurrentHashMap ключ и значение согласно заданию.
 6. Метод run() класса Producer должен при возникновении исключения выводить в консоль "[THREAD_NAME] thread was terminated".
+
+# [task12](https://github.com/NikitaNasevich/javarush.ru/tree/main/level26/task12)
+
+Весь мир играет комедию
+Почитать про java.util.concurrent.locks.Lock на http://docs.oracle.com/ (там все есть в джавадоках!)
+Написать реализацию метода someMethod():
+1. попытаться захватить лок
+1.1. если лок занят, то вызвать метод actionIfLockIsBusy()
+1.2. если лок свободен, то:
+1.2.1 вызвать метод actionIfLockIsFree()
+1.2.2 отпустить лок при любых условиях, даже если actionIfLockIsFree() будет кидать исключение
+
+
+Requirements:
+1. Класс Solution должен содержать приватное поле Lock lock.
+2. Класс Solution должен содержать публичный метод actionIfLockIsFree().
+3. Класс Solution должен содержать публичный метод actionIfLockIsBusy().
+4. Метод someMethod() должен пытаться захватить лок.
+5. Метод someMethod() должен вызвать метод actionIfLockIsBusy(), если лок занят.
+6. Метод someMethod() должен вызвать метод actionIfLockIsFree(), если лок свободен.
+7. Метод someMethod() должен отпускать лок при любых условиях, даже если actionIfLockIsFree() будет кидать исключение.
