@@ -1,4 +1,4 @@
-# [task01]()
+# [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task01)
 
 Избавляемся от меток
 Избавьтесь от меток в методе isSubstringPresent сохранив логику.
