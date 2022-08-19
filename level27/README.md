@@ -61,3 +61,18 @@ Requirements:
 2. В методе secondMethod должен присутствовать вложенный синхронизированный блок по объекту this.
 3. Поле lock должно быть приватным.
 4. Метод secondMethod не должен быть объявлен с модификатором synchronized.
+
+# [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task06)
+
+Убираем deadlock
+Используя стратегию избегания deadlock-а сделай так, чтобы он не возник.
+Метод main не участвует в тестировании.
+Действуй аналогично примеру из лекций.
+Изменения вноси только в safeMethod.
+
+
+Requirements:
+1. Метод safeMethod не должен вызывать deadlock при использовании из разных потоков.
+2. В методе safeMethod должен содержаться вызов метода unsafeMethod, с теми же аргументами.
+3. В методе safeMethod должен содержаться вызов метода longTimeMethod.
+4. В методе safeMethod должно содержаться два блока synchronized.
