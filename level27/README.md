@@ -76,3 +76,18 @@ Requirements:
 2. В методе safeMethod должен содержаться вызов метода unsafeMethod, с теми же аргументами.
 3. В методе safeMethod должен содержаться вызов метода longTimeMethod.
 4. В методе safeMethod должно содержаться два блока synchronized.
+
+# [task07](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task07)
+
+Определяем порядок захвата монитора
+Реализуй логику метода isLockOrderNormal, который должен определять:
+соответствует ли порядок synchronized блоков в методе someMethodWithSynchronizedBlocks - порядку передаваемых в него аргументов.
+В случае, если сначала происходит синхронизация по o1, а потом по o2, метод должен вернуть true.
+Если наоборот - false.
+
+
+Requirements:
+1. Метод isLockOrderNormal должен возвращать true в случае, если синхронизация в методе someMethodWithSynchronizedBlocks происходит сначала по объекту o1, а потом по o2.
+2. Метод isLockOrderNormal должен возвращать false в случае, если синхронизация в методе someMethodWithSynchronizedBlocks происходит сначала по объекту o2, а потом по o1.
+3. Метод isLockOrderNormal НЕ должен быть приватным.
+4. Класс Solution НЕ должен быть объявлен с модификатором final.
