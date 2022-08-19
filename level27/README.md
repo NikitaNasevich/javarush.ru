@@ -37,6 +37,19 @@ Requirements:
 3. Метод bow должен быть объявлен с модификатором synchronized.
 4. Метод bowBack должен быть объявлен с модификатором synchronized.
 
+# [task04](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task04)
+
+Модификаторы и deadlock
+Расставь модификаторы так, чтобы при работе с этим кодом появился deadlock.
+Метод main порождает deadlock, поэтому не участвует в тестировании.
+
+
+Requirements:
+1. Поле field должно быть приватным.
+2. Метод getField НЕ должен быть приватным.
+3. Метод sout должен быть объявлен с модификатором synchronized.
+4. Метод sout2 должен быть объявлен с модификатором synchronized.
+
 # [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task05)
 
 Второй вариант deadlock
