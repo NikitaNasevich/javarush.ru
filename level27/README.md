@@ -168,3 +168,18 @@ Requirements:
 2. Объекты класса Person должны работать корректно в многопоточном окружении.
 3. В методе run класса MailServer должен присутствовать synchronized блок, монитор - mail.
 4. В методе run класса Person должен присутствовать synchronized блок, монитор - mail.
+
+# [task11](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task11)
+
+CountDownLatch
+Дана стандартная реализация методологии wait-notify.
+Почитай про CountDownLatch и перепиши тело метода someMethod используя поле latch.
+Весь лишний код удали из класса.
+
+
+Requirements:
+1. Из класса Solution должно быть удалено поле lock.
+2. Из метода someMethod должен быть удален synchronized блок.
+3. В методе someMethod должен быть вызван метод await без параметров у объекта сохраненного в поле latch.
+4. В методе someMethod должен быть вызван метод retrieveValue.
+5. В методе someMethod должен быть вызван метод countDown у объекта сохраненного в поле latch.
