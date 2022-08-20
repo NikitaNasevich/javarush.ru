@@ -1,5 +1,5 @@
 # [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task01)
--
+
 Избавляемся от меток
 Избавьтесь от меток в методе isSubstringPresent сохранив логику.
 Метод возвращает true, в случае если строка substring является подстрокой строки string, иначе false.
