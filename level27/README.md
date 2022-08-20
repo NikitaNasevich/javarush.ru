@@ -1,5 +1,5 @@
 # [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task01)
-
+-
 Избавляемся от меток
 Избавьтесь от меток в методе isSubstringPresent сохранив логику.
 Метод возвращает true, в случае если строка substring является подстрокой строки string, иначе false.
@@ -151,3 +151,20 @@ Requirements:
 4. Метод put класса TransferObject должен ждать пока value заберут и обновлять его значение после того, как оно пропадет.
 5. Метод get класса TransferObject должен устанавливать флаг isValuePresent в false и уведомлять другие нити ожидающие освобождения монитора перед возвратом значение поля value.
 6. Метод put класса TransferObject должен устанавливать флаг isValuePresent в true и уведомлять другие нити ожидающие освобождения монитора после обновления значение поля value.
+
+# [task10](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task10)
+
+Расставь wait-notify
+
+Расставь wait-notify.
+
+Пример вывода:
+
+Thread-0 MailServer received: [Person [Thread-1] wrote an email 'AAA'] in 1001 ms after start
+
+
+Requirements:
+1. Объекты класса MailServer должны работать корректно в многопоточном окружении.
+2. Объекты класса Person должны работать корректно в многопоточном окружении.
+3. В методе run класса MailServer должен присутствовать synchronized блок, монитор - mail.
+4. В методе run класса Person должен присутствовать synchronized блок, монитор - mail.
