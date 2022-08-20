@@ -119,6 +119,7 @@ Producer–consumer
 В методах run классов ConsumerTask и ProducerTask создай необходимые synchronized блоки.
 
 Ожидаемый вывод:
+
 ...
 
 Put: M
