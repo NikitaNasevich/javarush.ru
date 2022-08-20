@@ -91,3 +91,23 @@ Requirements:
 2. Метод isLockOrderNormal должен возвращать false в случае, если синхронизация в методе someMethodWithSynchronizedBlocks происходит сначала по объекту o2, а потом по o1.
 3. Метод isLockOrderNormal НЕ должен быть приватным.
 4. Класс Solution НЕ должен быть объявлен с модификатором final.
+
+# [task08](https://github.com/NikitaNasevich/javarush.ru/tree/main/level27/task08)
+
+Убираем deadLock используя открытые вызовы
+Синхронизированные методы, которые вызывают внутри себя синхронизированные методы других классов, приводят к dead-lock-у.
+1. Перенесите синхронизацию с метода в синхронизированный блок, куда поместите лишь необходимые части кода.
+2. Уберите избыточную синхронизацию методов.
+3. В стеке вызова методов не должно быть перекрестной синхронизации, т.е. такого synchronizedMethodAClass().synchronizedMethodBClass().synchronizedMethodAClass()
+
+Этот способ избавления от дэдлока называется "открытые вызовы", о нем читайте в дополнительном материале к лекции.
+Метод main не участвует в тестировании.
+
+
+Requirements:
+1. Должна быть обеспечена возможность корректного взаимодействия объектов типа Apartment и RealEstate без возникновения взаимных блокировок.
+2. Метод up класса RealEstate должен быть объявлен без модификатора synchronized.
+3. Метод revalidate класса RealEstate должен быть объявлен без модификатора synchronized.
+4. Метод revalidate класса Apartment должен быть объявлен без модификатора synchronized.
+5. Метод revalidate класса RealEstate должен содержать один synchronized блок.
+6. В synchronized блоке метода revalidate класса RealEstate должен содержаться вызов метода revalidate на объекте apartment с параметром randomValue.
