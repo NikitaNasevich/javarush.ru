@@ -1,4 +1,4 @@
-# [task01]()
+# [task01](https://github.com/NikitaNasevich/javarush.ru/tree/main/level28/task01)
 
 Осваиваем switch
 Реализуй логику метода switchTest:
