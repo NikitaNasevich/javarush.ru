@@ -156,3 +156,38 @@ Requirements:
 5. Каждая задача должна вызывать метод doExpensiveOperation с порядковым номером задачи, начиная с 1.
 6. Запрети добавление новых задач на исполнение в пул.
 7. На завершение всех задач в пуле нужно установить 5 секунд.
+
+# [task12](https://github.com/NikitaNasevich/javarush.ru/tree/main/level28/task12) 
+
+ShutdownNow!
+
+Разберись в чем отличие методов shutdown и shutdownNow. Выведи список всех незавершенных задач на экран.
+
+Должно получиться что-то вроде:
+
+pool-1-thread-1, localId=1
+
+pool-1-thread-2, localId=2
+
+pool-1-thread-3, localId=3
+
+pool-1-thread-4, localId=4
+
+pool-1-thread-5, localId=5
+
+java.util.concurrent.FutureTask@7e6cbb7a was not completed
+
+java.util.concurrent.FutureTask@7c3df479 was not completed
+
+java.util.concurrent.FutureTask@7106e68e was not completed
+
+java.util.concurrent.FutureTask@7eda2dbb was not completed
+
+java.util.concurrent.FutureTask@6576fe71 was not completed
+
+
+Requirements:
+1. В методе main класса Solution должен быть вызван метод shutdownNow на объекте executor.
+2. В методе main класса Solution на экран должны быть выведены все задачи которые не успел выполнить executor.
+3. Метод main должен быть публичным.
+4. Метод main должен быть статическим.
