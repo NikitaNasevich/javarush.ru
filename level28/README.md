@@ -80,3 +80,20 @@ Requirements:
 2. Метод getRandomIntegerBetweenNumbers с помощью ThreadLocalRandom должен возвращать случайный int [from..to].
 3. Метод getRandomDouble с помощью ThreadLocalRandom должен возвращать случайный double [0..1).
 4. Метод getRandomLongBetween0AndN с помощью ThreadLocalRandom должен возвращать случайный long [0..n].
+
+# [task04](https://github.com/NikitaNasevich/javarush.ru/tree/main/level28/task04)
+
+Magic class
+В пакете java.util.concurrent найди такую реализацию List, у которой:
+1. Итератор не содержит какие-либо данные, вставленные в список после создания итератора;
+2. Внутри данные хранятся в виде массива;
+3. Итератор гарантированно не бросает ConcurrentModificationException;
+4. Допускаются все элементы включая null;
+5. Исправь строку List<String> list = null ... в методе main.
+
+
+Requirements:
+1. Класс Solution изменять нельзя.
+2. Реализацию методов startUpdatingThread и stopUpdatingThread менять нельзя.
+3. Реализацию метода copyOnWriteSolution менять нельзя.
+4. Добавь в main создание нужного экземпляра List согласно заданию.
