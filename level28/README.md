@@ -171,6 +171,29 @@ Requirements:
 3. Объект Callable должен возвращать в виде строки сумму всех чисел от 1 до переданного числа i, включая его
 4. Сумма должна правильно считаться для чисел произвольной длины.
 
+# [task09](https://github.com/NikitaNasevich/javarush.ru/tree/main/level28/task09)
+
+Plants vs Zombies
+1. Почитай про java.util.concurrent.Phaser.
+2. Расставь методы в нужных местах:
+- arriveAndDeregister() - начинает запускать методы run у тасок,
+- arriveAndAwaitAdvance() - ждет, когда все трэды будут созданы.
+
+Пример вывода см. в output.txt.
+
+Логика:
+
+Сначала все персонажи присоединяются к игре.
+После того, как все персонажи присоединятся к игре и готовы играть, выводится фраза "Игра началась!".
+После этого персонажи вступают в игру, после чего умирают.
+
+
+Requirements:
+1. Класс Character менять не нужно.
+2. Классы Plant и Zombie менять не нужно.
+3. В классе Solution вызови метод phaser.arriveAndDeregister в правильном месте.
+4. В классе Solution вызови метод phaser.arriveAndAwaitAdvance в правильном месте.
+
 # [task12](https://github.com/NikitaNasevich/javarush.ru/tree/main/level28/task12) 
 
 ShutdownNow!
