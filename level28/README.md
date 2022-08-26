@@ -228,3 +228,18 @@ Requirements:
 2. В методе main класса Solution на экран должны быть выведены все задачи которые не успел выполнить executor.
 3. Метод main должен быть публичным.
 4. Метод main должен быть статическим.
+
+# [task13](https://github.com/NikitaNasevich/javarush.ru/tree/main/level28/task13)
+
+FutureTask
+
+Класс FactorialCalculator предназначен для вычисления факториала числа переданного в его конструктор в качестве параметра. К сожалению, он реализован некорректно и тебе необходимо это исправить.
+
+Внимательно разбери метод main класса Solution.
+
+
+Requirements:
+1. Класс FactorialCalculator должен поддерживать интерфейс Callable.
+2. Метод call класса FactorialCalculator должен возвращать результат выполнения метода factorial.
+3. Метод call класса FactorialCalculator должен быть публичным.
+4. Поле number класса FactorialCalculator должно быть приватным.
