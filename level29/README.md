@@ -41,3 +41,18 @@ Requirements:
 2. Объект, возвращаемый методом getRunnable(), должен быть экземпляром анонимного класса.
 3. Метод run() внутри метода getRunnable() должен вызывать у concurrentMap метод, вставляющий пару (randomInt, text), если в concurrentMap еще нет пары со значением ключа randomInt.
 4. Метод run() класса, возвращаемого методом getRunnable(), должен выводить текст на экран.
+
+# [task04](https://github.com/NikitaNasevich/javarush.ru/tree/main/level29/task04)
+
+Особенности автобоксинга
+
+Исправь ошибку в методе getValueByIndex().
+
+Читай доп. статью про особенности автобоксинга.
+
+
+Requirements:
+1. Метод getValueByIndex() должен возвращать объект типа Integer из массива array, если элемент с индексом index есть в массиве.
+2. Метод getValueByIndex() должен возвращать объект типа Double, равный -1, если в массиве array нет элемента с индексом index.
+3. Метод main() не изменять.
+4. Программа должна вывести две строки: "-1.0, class java.lang.Double" и "3, class java.lang.Integer".
