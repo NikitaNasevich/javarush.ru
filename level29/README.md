@@ -56,3 +56,18 @@ Requirements:
 2. Метод getValueByIndex() должен возвращать объект типа Double, равный -1, если в массиве array нет элемента с индексом index.
 3. Метод main() не изменять.
 4. Программа должна вывести две строки: "-1.0, class java.lang.Double" и "3, class java.lang.Integer".
+
+# [task05](https://github.com/NikitaNasevich/javarush.ru/tree/main/level29/task05)
+
+Странные ошибки О_о
+Исправь 2 ошибки:
+1) возникновение исключения
+2) подвисание
+Сделай минимальные изменения.
+
+
+Requirements:
+1. Метод startCreatingMessages() должен без зависаний добавлять в messageQueue 100000 элементов.
+2. Исправь ошибку в строке "messageQueue.drainTo(messageQueue, MAX_BATCH_SIZE);".
+3. Метод main() не должен зависать.
+4. Вывод программы должен показывать, что все сообщения из messageQueue были перенесены в fakeDataBase.
