@@ -71,3 +71,39 @@ Requirements:
 2. Исправь ошибку в строке "messageQueue.drainTo(messageQueue, MAX_BATCH_SIZE);".
 3. Метод main() не должен зависать.
 4. Вывод программы должен показывать, что все сообщения из messageQueue были перенесены в fakeDataBase.
+
+# [task06](https://github.com/NikitaNasevich/javarush.ru/tree/main/level29/task06)
+
+Особенности автобоксинга - 2
+
+Исправь ошибку реализации, приводящую к NullPointerException, в методе getValue().
+
+Читай доп. статью про особенности автобоксинга.
+
+
+Requirements:
+1. Реализация метод getValue() должна использовать тернарный оператор.
+2. Метод getValue() не должен кидать исключений при любых значениях параметров first и second.
+3. Метод getValue() должен вернуть 100, если в него передать Boolean.TRUE и Boolean.TRUE.
+4. Метод getValue() должен вернуть 200, если в него передать Boolean.FALSE и Boolean.TRUE.
+5. Метод getValue() должен вернуть null, если в него передать Boolean.FALSE и Boolean.FALSE.
+
+# [task07](https://github.com/NikitaNasevich/javarush.ru/tree/main/level29/task07)
+
+Этот странный BigDecimal
+
+Исправь ошибку реализации, приводящую к погрешности вычисления, в методе getValue().
+
+Сигнатуру метода не менять. Округление не использовать.
+
+Читай доп. статью про особенности автобоксинга.
+
+
+Requirements:
+1. Метод getValue() должен создавать два объекта типа BigDecimal.
+2. Метод getValue() должен вызывать метод add() у созданного объекта BigDecimal.
+3. Метод getValue() НЕ должен использовать метод round().
+4. Метод getValue() должен возвращать результат без погрешности.
+
+
+
