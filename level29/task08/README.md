@@ -1,0 +1,12 @@
+Кеширование
+
+В CacheComputeManager реализуй логику пустого метода.
+
+Догадайся, что он должен делать по названию метода и по логике класса.
+
+
+Requirements:
+1. Метод createFutureTaskForNewArgumentThatHasToComputeValue() должен создавать и возвращать объект типа FutureTask.
+2. В методе createFutureTaskForNewArgumentThatHasToComputeValue() должен создаваться объект анонимного класса, реализующего интерфейс Callable.
+3. Внутри метода createFutureTaskForNewArgumentThatHasToComputeValue() должна встречаться строка "return computable.compute(arg);".
+4. Программа должна выводить текст указанный в комментариях в классе Solution.
