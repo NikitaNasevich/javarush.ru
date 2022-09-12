@@ -125,7 +125,7 @@ Requirements:
 Большая задача. Рефакторинг.
 
 
-# [task10] (https://github.com/NikitaNasevich/javarush.ru/tree/main/level29/task10)
+# [task10](https://github.com/NikitaNasevich/javarush.ru/tree/main/level29/task10)
 
 Это архаичное слово "Биатлон"
 Амиго, представляешь, в 21 веке существовал такой вид спорта - биатлон. Люди ездили на лыжах и стреляли на подготовленных площадках по мишеням. За одну серию стрельбы нужно было закрыть 5 мишеней. Стрельбы происходили как стоя, так и лежа, но не будем вдаваться в подробности. У лучших представителей рода человеческого средняя точность стрельбы достигала 90%, у крепких середнячков - 81,5%.
@@ -151,7 +151,7 @@ Requirements:
 5. Класс Solution не изменяй.
 6. Класс Sportsman не изменяй.
 
-# [task11] (https://github.com/NikitaNasevich/javarush.ru/tree/main/level29/task11)
+# [task11](https://github.com/NikitaNasevich/javarush.ru/tree/main/level29/task11)
 
 И еще раз рефакторинг Ӏ Java Multithreading: 9 уровень, 9 лекция
 Задается целое число от 0 до 999 включительно случайным образом. Пользователь вводит с клавиатуры число.
